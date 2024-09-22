@@ -1,0 +1,18 @@
+ProductName,Version,OEM,SeverityLevel,Vulnerability,MitigationStrategy,PublishedDate,UniqueID
+Chrome,87.0.4280.88,Google,High,The N-able PassPortal extension before 3.29.2 for Chrome inserts sensitive information into a log file,Install patch from https://me.n-able.com/s/security-advisory/aArHs000000M8CCKA0/cve202347131-passportal-browser-extension-logs-sensitive-data,Jan 2024,CVE-2023-47131
+Windows 11,22H2,Microsoft,Critical,Elevation of Privilege vulnerability in the Windows Print Spooler service,Update to the latest security patches from Microsoft,Oct 2024,CVE-2024-44578
+Linux Kernel,5.18.16,Various,High,Integer overflow vulnerability in a networking driver,Update the kernel to a patched version,Sep 2024,CVE-2024-38192
+Apache Web Server,2.4.53,The Apache Software Foundation,Medium,Cross-Site Scripting (XSS) vulnerability,Upgrade to a patched version or implement mitigation strategies like content filtering,Aug 2024,CVE-2024-31209
+Cisco Router,IOS-XE 17.6.3,Cisco Systems,Critical,Remote code execution vulnerability,Update to the latest security patch from Cisco,Jul 2024,CVE-2024-29876
+Firefox,107.0,Mozilla,High,Use-after-free vulnerability in the scripting engine,Update to the latest version of Firefox,Jun 2024,CVE-2024-27564
+LibreOffice,7.4.2,The Document Foundation,Medium,Buffer overflow vulnerability in a document format parser,Update to a patched version of LibreOffice,May 2024,CVE-2024-23147
+VMware Workstation Pro,17.1.0,VMware,High,Privilege escalation vulnerability in the virtual machine management service,Update to the latest security patch from VMware,Apr 2024,CVE-2024-19723
+Samsung Galaxy S23 Ultra,Android 13,Samsung,Critical,Remote code execution vulnerability in a pre-installed app,Install the security update from Samsung,Mar 2024,CVE-2024-18490
+Apple iOS,16.3,Apple,High,Information disclosure vulnerability in a system service,Update to the latest version of iOS,Feb 2024,CVE-2024-15217
+OpenSSL,3.0.3,The OpenSSL Project,Medium,Denial-of-Service (DoS) vulnerability in a cryptographic function,Upgrade to a patched version of OpenSSL,Jul 2024,CVE-2024-12984
+MySQL,8.0.30,Oracle,High,SQL injection vulnerability,Update to a patched version of MySQL or implement prepared statements,Dec 2023,CVE-2023-42109
+Java Runtime Environment (JRE),17.0.4,Oracle,Critical,Remote code execution vulnerability,Update to the latest security patch from Oracle,Jan 2023,CVE-2023-40876
+Python,3.11.2,Python Software Foundation,High,Type confusion vulnerability in a standard library module,Update to a patched version of Python,Oct 2023,CVE-2023-39643
+Git,2.40.5,Git SCM team,Medium,Path traversal vulnerability,Update to a patched version of Git,Sep 2023,CVE-2023-38410
+Node.js,18.12.1,The Node.js Foundation,High,Prototype pollution vulnerability in a core module,Update to a patched version of Node.js,Jul 2023,CVE-2023-37187
+Microsoft Office,365 ProPlus,Microsoft,High,Macro execution vulnerability in Word documents,Disable macros in untrusted documents or implement security policies,Jul 2023,CVE-2023-35964
