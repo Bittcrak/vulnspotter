@@ -8,9 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.mime.application import MIMEApplication
-
-genai.configure(api_key="AIzaSyCVzBdnWHmDI8IMV0Kiao34CtYg_vW5_nM")
+from email.mime.application M")
 
 def create_pdf(filename, severity_labels, severity_values, date_group):
     pdf = PdfPages(filename)
@@ -135,11 +133,11 @@ if st.button("Send Email with Visualizations"):
 
     email_subject = "Vulnerability Report with Visualizations"
     
-    sender_email = "fatehsingh07462@gmail.com"
-    receiver_email = "mayankgupta0526@gmail.com"
+    sender_email = "
+    receiver_email =
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    sender_password = "rmsv biho qjsh nbxg"  # Replace with your password
+    sender_passw# Replace with your password
 
     send_email(email_subject, email_message, sender_email, receiver_email, smtp_server, smtp_port, sender_password, attachment_path=pdf_filename)
 
